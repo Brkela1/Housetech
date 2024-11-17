@@ -1,0 +1,563 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color:white;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navbar .logo{
+    width: 100px;
+}
+
+.navbar button {
+	display: none;
+	padding: 10px;
+}
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+    color: #A4161A;
+}
+
+.pocetna{
+    background-image: url('../img/pozadina1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pocetna .pocetna-card{
+    width: 60%;
+    text-align: center;
+    height: 200px;
+}
+
+.pocetna .pocetna-card a{
+    background-color: #A4161A;
+    color: white;
+    padding: 10px 30px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.pocetna .pocetna-card a:hover {
+    background-color: white;
+    color:#A4161A;
+}
+
+.about{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-container{
+    padding-bottom: 160px;
+    padding-top: 160px;
+    width: 70%;
+    display: block;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Emblema One', serif;
+    font-size: 80px;
+}
+
+.shop{
+    margin-top: 40px;
+}
+.shop-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-items-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Emblema One', serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+p{
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card{
+    margin: 0px 40px;
+    background-color: white;
+    padding: 40px 40px;
+    border: #A4161A;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 200px;
+
+}
+
+.card h4{
+    color: #000000;
+    text-align:left;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    background-color: #A4161A;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 40px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.card a:hover{
+    background-color: white;
+    color:#A4161A;
+    border-style: solid;
+    border-color: #A4161A;
+    border-width: 3px;
+}
+.card p{
+    color: #A4161A;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.shop-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #A4161A;
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+
+.footer-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer-container p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 1000px;
+    height: 550px;
+    margin: 140px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form h1{ 
+    text-align: center;
+}
+
+.input-fields{
+    width: 300px;
+    margin: 15px auto;
+}
+
+.input-fields input{
+    width: 280px;
+    padding: 10px;
+}
+
+.input-fields label{
+    margin: 0;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.input-fields textarea{
+    width: 100%;
+    height: 120px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    background-color: #A4161A;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: white;
+    color:#A4161A;
+}
+
+.animacija {
+    text-align: center;
+    animation-name: textAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+li{
+    list-style-type: none;
+    color: #A4161A;
+}
+
+  @keyframes textAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar{
+        margin-right: 0%;
+        justify-content:center; 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar .logo{
+        width: 30px;
+    }
+
+    .navbar button {
+		display: block;
+	}
+
+	.navbar ul {
+		display: none;
+		position: absolute;
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    top: 119px;
+	}
+
+    .nav-menu{
+        padding: 0px;
+        margin-left: 40px;
+    }
+
+    .nav-menu .nav-item{
+        margin: 0px;
+    }
+ 
+    
+
+    .nav-item a{
+        font-size: 12px;
+    }
+
+    .pocetna h1{
+        font-size: 30px;
+    }
+
+    .about-container h2{
+        font-size: 18px;
+    }   
+    
+    .about-container p{
+        font-size: 10px;
+    }
+    
+    .pocetna .pocetna-card a{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    .shop-container h2{
+        font-size: 18px;
+    }
+    .shop-container h3{
+        font-size: 12px;
+    }
+
+    .shop-items-container {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card img{
+        height: 100px;
+    }
+    
+    .card h4{
+        font-size: 14px;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+    .shop-info a{
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 6px 12px;
+    }
+    .footer-container h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer-container p{
+        font-size: 10px;
+        margin: 5px 0px;
+    }
+
+    form {
+        width: 320px;
+    }
+    
+    form h1{
+        font-size: 30px;
+    }
+
+    .input-fields label{
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .input-fields input{
+        width: 90%;
+    }
+
+    .input-fields{
+        width: 90%;
+        margin: 15px auto;
+
+    }
+
+    .input-fields textarea{
+        width: 90%;
+        padding: 10px;
+    }
+
+    form{
+        justify-content: center;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .navbar{
+        margin-right: 0%;
+        justify-content: space-between; 
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar .logo{
+        width: 40px;
+    }
+
+    .navbar button {
+		display: block;
+	}
+
+	.navbar ul {
+		display: none;
+		position: absolute;
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    top: 119px;
+	}
+
+    .nav-item a{
+        font-size: 12px;
+    }
+
+    .pocetna h1{
+        font-size: 50px;
+    }
+
+    .about-container h2{
+        font-size: 30px;
+    }   
+    
+    .about-container p{
+        font-size: 14px;
+    }
+    
+    .pocetna .pocetna-card a{
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+
+    .shop-container h2{
+        font-size: 30px;
+    }
+    .shop-container h3{
+        font-size: 14px;
+    }
+
+    .shop-items-container {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        padding: 10px 10px;
+        margin: 10px 20px;
+    }
+    
+    .card img{
+        height: 150px;
+    }
+    
+    .card h4{
+        font-size: 12px;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+    .shop-info a{
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 6px 12px;
+    }
+    .footer-container h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer-container p{
+        font-size: 10px;
+        margin: 5px 0px;
+    }
+
+    form {
+        width: 320px;
+    }
+    
+    form h1{
+        font-size: 30px;
+    }
+
+    .input-fields label{
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .input-fields input{
+        width: 90%;
+    }
+
+    .input-fields{
+        width: 90%;
+        margin: 15px auto;
+
+    }
+
+    .input-fields textarea{
+        width: 90%;
+        padding: 10px;
+    }
+
+    form {
+        justify-content: center;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

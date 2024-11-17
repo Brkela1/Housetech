@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" href="../style/shopping.css">
+</head>
+<body>
+
+	<h1>Shopping Cart</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Shop</h2>
+
+			<div class="single-item">
+				<img src="../img/amd.jpg">
+				<div class="si-content">
+					<h3>AMD Radeon 7700xt</h3>
+					<p class="price">$155</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj" >Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="../img/asus.jpg">
+				<div class="si-content">
+					<h3>TUF GAMING Z790</h3>
+					<p class="price">$200</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="../img/ryzen.jpg">
+				<div class="si-content">
+					<h3>Ryzen 9 7800x</h3>
+					<p class="price">$270</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+
+            <div class="single-item">
+				<img src="../img/logitech.jpg">
+				<div class="si-content">
+					<h3>LOGITECH LIGHTSPEED</h3>
+					<p class="price">$200</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+
+            <div class="single-item">
+				<img src="../img/gigabyte.png">
+				<div class="si-content">
+					<h3>GIGABYTE RTX 4060 Ti</h3>
+					<p class="price">$350</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+
+            <div class="single-item">
+				<img src="../img/marvo.png">
+				<div class="si-content">
+					<h3>MARVO GT-90</h3>
+					<p class="price">$45</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/nintendo.png">
+				<div class="si-content">
+					<h3>NINTENDO SWITCH LITE</h3>
+					<p class="price">$290</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/onex.jpg">
+				<div class="si-content">
+					<h3>ONEX GX330</h3>
+					<p class="price">$240</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/volan.png">
+				<div class="si-content">
+					<h3>G923 TRUEFORCE</h3>
+					<p class="price">$400</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/sonic.png">
+				<div class="si-content">
+					<h3>PS4 Sonic Mania Plus</h3>
+					<p class="price">$20</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/xbox.png">
+				<div class="si-content">
+					<h3>XBOX SERIES S 512GB</h3>
+					<p class="price">$350</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+            <div class="single-item">
+				<img src="../img/monka.jpg">
+				<div class="si-content">
+					<h3>MONKA G966W Gaming</h3>
+					<p class="price">$55</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button class="dodaj">Dodaj</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+            <button class="kupi" >Kupi</button>
+		</div>
+	</div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <h3>Hvala na kupovini</h3>
+            <p>Zahvaljujemo Vam se na kupovini ovog proizvoda.</p>
+            <p class="closeModal">X</p>
+        </div>
+    </div>
+
+	<script src="../script.js"></script>
+</body>
+</html>
